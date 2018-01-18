@@ -36,11 +36,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.lblFelicidad = new System.Windows.Forms.Label();
             this.lblAltura = new System.Windows.Forms.Label();
             this.lblPeso = new System.Windows.Forms.Label();
-            this.lblColour = new System.Windows.Forms.Label();
             this.lblGeneracion = new System.Windows.Forms.Label();
             this.lblHabitat = new System.Windows.Forms.Label();
             this.lblColor = new System.Windows.Forms.Label();
@@ -132,23 +130,12 @@
             // 
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(369, 360);
+            this.label8.Location = new System.Drawing.Point(369, 320);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(170, 34);
             this.label8.TabIndex = 8;
             this.label8.Text = "generación";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label9
-            // 
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(369, 313);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(170, 34);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "color";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblFelicidad
             // 
@@ -181,21 +168,11 @@
             this.lblPeso.TabIndex = 14;
             this.lblPeso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblColour
-            // 
-            this.lblColour.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblColour.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblColour.Location = new System.Drawing.Point(558, 313);
-            this.lblColour.Name = "lblColour";
-            this.lblColour.Size = new System.Drawing.Size(136, 34);
-            this.lblColour.TabIndex = 15;
-            this.lblColour.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // lblGeneracion
             // 
             this.lblGeneracion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblGeneracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGeneracion.Location = new System.Drawing.Point(558, 360);
+            this.lblGeneracion.Location = new System.Drawing.Point(558, 320);
             this.lblGeneracion.Name = "lblGeneracion";
             this.lblGeneracion.Size = new System.Drawing.Size(136, 34);
             this.lblGeneracion.TabIndex = 16;
@@ -238,12 +215,10 @@
             this.ClientSize = new System.Drawing.Size(797, 561);
             this.Controls.Add(this.lblFoto);
             this.Controls.Add(this.lblGeneracion);
-            this.Controls.Add(this.lblColour);
             this.Controls.Add(this.lblPeso);
             this.Controls.Add(this.lblAltura);
             this.Controls.Add(this.lblFelicidad);
             this.Controls.Add(this.lblHabitat);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -270,11 +245,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblFelicidad;
         private System.Windows.Forms.Label lblAltura;
         private System.Windows.Forms.Label lblPeso;
-        private System.Windows.Forms.Label lblColour;
         private System.Windows.Forms.Label lblGeneracion;
         private System.Windows.Forms.Label lblHabitat;
         private System.Windows.Forms.Label lblColor;

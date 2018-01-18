@@ -44,7 +44,8 @@ namespace Pokedex
             
             dataGridView1.DataSource = datos;
             conexion.Close();
-           
+            lblFoto.Image = Image.FromFile(@"C:\Users\xp\Source\Repos\Pokedex2C2\Pokedex\imagenes\0.png");
+
 
         }
 
@@ -73,6 +74,11 @@ namespace Pokedex
                     lblGeneracion.Text = resultado2["generation_id"].ToString();
                     lblFelicidad.Text = resultado2["base_happiness"].ToString();
                     lblHabitat.Text = resultado2["habitat"].ToString();
+                    String  numeroImagen = resultado2["id"].ToString();
+                    int numeroNuevo = Int32.Parse(numeroImagen) - 1;
+                    String numeroNuevo2 = numeroNuevo.ToString();
+                   Image imagen = Image.FromFile(@"C:\Users\xp\Source\Repos\Pokedex2C2\Pokedex\imagenes\" + numeroNuevo2+".png");
+                    lblFoto.Image = imagen;
                 }
                 
                 //Console.WriteLine(resultado6[""] as String);
